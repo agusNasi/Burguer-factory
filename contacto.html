@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./fotos/diseñoFavicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&family=Water+Brush&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Burguer factory.</title>
+</head>
+<body>
+    <header class="headerContacto">
+        <nav>
+            <ul>
+                <li><a href="inicio.html">Inicio</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        <img src="./fotos/logoburguerfactory2.png" alt="Logo dai" class="logo2">
+        <div class="divSaboresOtros">
+            <h1 class="h1_header">Queremos saber tu opinion</h1>
+        </div>
+    </header>
+    <hr>
+    <main class="mainContancto">
+        <section class="seccion1Cont">
+            <h2>Contactenos</h2>
+            <p>En burguer factory nos importa mucho las opiniones de nuestros clientes. Selecciona el motivo de tu consulta y en breve nos estaremos comunicando con vos.</p>
+        </section>
+        <section class="seccion2Cont">
+            <form action="">
+                <div class="nombre_apellido">
+                    <div class="nombreAp">
+                        <label for="nombre"></label>
+                        <input type="text" name="nombre" placeholder="Nombre">
+                    </div>
+                    <div class="nombreAp">
+                        <label for="apellido"></label>
+                        <input type="text" name="apellido" placeholder="Apellido">
+                    </div>
+                </div><br>
+                <div class="formulario_">
+                    <label for="email"></label>
+                    <input type="email" name="email" placeholder="Email">
+                </div><br>
+                <div>
+                    <select name="motivo" id="" class="selecMotivo">
+                        <option value="problemas">Problemas con una compra</option>
+                        <option value="vendedores">Mala atencion</option>
+                        <option value="otro">Otra consulta</option>
+                    </select>
+                </div><br>
+                <div>
+                        <label for="comentario"></label>
+                        <textarea name="comentario" placeholder="Escribe un comentario" id="" cols="" rows="5"></textarea>
+                </div><br>
+                <div>
+                    <section class="seccionBoton">
+                        <input class="boton" type="submit" value="Enviar">
+                        <input class="boton" type="reset" value="Borrar">
+                    </section>
+                </div><br>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footerIzquierda">
+            <img src="./fotos/logoburguerfactory2.png" alt="">
+        </div>
+        <div class="footerDerecha">
+            <h4>Seguinos en nuestras redes</h4>
+            <img src="./fotos/facebookFooter.png" alt="facebook" width="50px">
+            <img src="./fotos/instagramFooter.png" alt="instagram" width="50px">
+            <img src="./fotos/twitterFooter.png" alt="twitter" width="50px">
+        </div>
+    </footer>
+</body>
+</html>
