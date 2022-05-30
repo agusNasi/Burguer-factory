@@ -20,6 +20,11 @@ p{
     position: relative;
     bottom: 15%;
 }
+.navbar-collapse{
+    justify-content: flex-end;
+    position: relative;
+    bottom: 40px;
+}
 .contenedorPadre_inicio{
     display: grid;
     grid-template-columns: auto;
@@ -116,26 +121,26 @@ span{
     background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url(./fotos/fondoNosotros5.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 30rem;
+    height: 35rem;
     text-align: center;
 }
 .headerProductos{
     background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url(./fotos/Diseño\ sin\ título\ \(8\).png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 30rem;
+    height: 35rem;
 }
 .headerMenu{
     background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url(./fotos/fondoSeccMenu1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 30rem;
+    height: 35rem;
 }
 .headerContacto{
     background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(5, 7, 12, 0.75)), url(./fotos/fondoMenu1.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 30rem;
+    height: 35rem;
 }
 .seccionInicioNosotros{
     margin: 5%;
@@ -521,10 +526,26 @@ footer h4{
     flex-direction: column;
     margin: 3%;
 }
+.divSaboresOtros{
+    margin: 3%;
+    position: relative;
+    top: 5%;
+}
 .flexVerMenu{
     margin-top: 5%;
 }
-@media screen and (max-width:900px){
+.navbar-toggler{
+    position: relative;
+    bottom: 30px;
+}
+@media screen and (max-width:991px){
+    .divSabores{
+        position: relative;
+        bottom: 7%;
+    }
+    ul li:hover{
+        border-radius: 20%;
+    }
     ul li:hover{
         background-color: transparent;
     }
@@ -538,11 +559,9 @@ footer h4{
         flex-direction: column;
     }
     nav{
-        background-color: black;
         padding: 0% 2%;
     }
     .navM{
-        background-color: black;
         padding: 0% 2%;
     }
     .logo{
@@ -592,7 +611,7 @@ footer h4{
         color: white;
         font-size: 3rem;
         position: relative;
-        bottom: 15%;
+        bottom: 70px;
     }
     .seccionProductos_main{
     display: grid;
@@ -654,17 +673,12 @@ footer h4{
     .prodImg3 img{
         width: 80vh;
     }
-    .divSabores{
-        position: relative;
-        bottom: 15%;
-        padding: 3%;
-    }
-    .divSaboresOtros{
-        position: relative;
-        bottom: 30%;
-    }
 }
 @media screen and (max-width:576px){
+    .divSabores{
+        position: relative;
+        bottom: 7%;
+    }
     .seccionNosotros div img{
         width: 40vh;
     }
@@ -706,12 +720,17 @@ footer h4{
     }
     .prodImg1 img{
         width: 40vh;
+        position: relative;
+        top: 50%;
     }
     .prodImg2 img{
         width: 40vh;
+        position: relative;
+        top: 50%;
     }
     .prodImg3 img{
         width: 40vh;
+        position: relative;
+        top: 50%;
     }
 }
-
