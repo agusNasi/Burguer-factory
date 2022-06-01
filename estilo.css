@@ -156,6 +156,7 @@ span{
 }
 .sobreNosotros{
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-size: 2rem;
     margin-bottom: 10px;
 }
@@ -205,6 +206,7 @@ span{
 }
 .especialidadesCasa{
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-size: 32px;
 }
 .fotosInicioProductos{
@@ -260,6 +262,7 @@ article h3{
 }
 .seccionNos_texto h2{
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-size: 2rem;
     margin-bottom: 10px;
 }
@@ -284,6 +287,14 @@ article h3{
     text-align: center;
     margin: 4% 2%;
     padding: 4%;
+}
+.carta{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.indexSeccProd{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
 }
 .menuBlanco2{
     background-color: rgba(255, 255, 255, 0.89);
@@ -313,6 +324,7 @@ article h3{
     text-align: center;
     margin: 2%;
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-size: 32px;
 }
 .seccion1Cont p{
@@ -415,6 +427,7 @@ textarea{
     text-align: center;
     margin: 2%;
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-size: 32px;
 }
 .mainParrafo{
@@ -440,6 +453,7 @@ textarea{
 }
 .prodTexto1 h2{
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-size: 32px;
     margin: 5%;
 }
@@ -455,6 +469,7 @@ textarea{
 }
 .prodTexto2 h2{
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-size: 32px;
     margin: 5%;
 }
@@ -470,6 +485,7 @@ textarea{
 }
 .prodTexto3 h2{
     font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
     font-size: 32px;
     margin: 5%;
 }
@@ -537,6 +553,7 @@ footer h4{
 .navbar-toggler{
     position: relative;
     bottom: 30px;
+    background-color: #fefad7;
 }
 @media screen and (max-width:991px){
     .divSabores{
