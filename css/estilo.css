@@ -273,7 +273,7 @@ article h3{
     margin-top: 10%;
 }
 .fondoMenuMain{
-    background-image: url(./fotos/fondoMenu3.png);
+    background-image: url(../fotos/fondoMenu3.png);
     width: 100%;
     background-attachment: fixed;
     background-position: center;
@@ -610,7 +610,7 @@ footer h4{
         height: 60vh;
     }
     .fondoMenuMain{
-        background-image: url(./fotos/fondoMenu3.png);
+        background-image: url(../fotos/fondoMenu3.png);
         width: 100%;
         background-attachment: fixed;
         background-position: center;
